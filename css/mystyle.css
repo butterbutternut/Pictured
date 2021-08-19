@@ -1,5 +1,5 @@
 body{
-  background-image:linear-gradient(to right, #1f1771, #28357e);
+  background-image:linear-gradient(to right, #1f1a71, #28367e);
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
@@ -22,12 +22,12 @@ p{
 /*********class*************/
 .row-title{
   background-image:linear-gradient(to right, #231e79, #232b7d);
-  padding: 30px 30px 60px 30px;
+  padding: 10% 0 10% 0;
 }
 
 .h11{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.8rem;
+  font-size: 3rem;
   color: white;
   text-align: center;
 }
@@ -70,9 +70,11 @@ p{
 #objective-pictured{
   padding:0 10% 0 10%;
 }
+
 .par1{
   padding: 5% 0;
 }
+
 .round {
     width: 12rem;
     height: 12rem;
@@ -98,6 +100,8 @@ p{
     }
     .title-obj{
       padding-bottom:3%;
+      font-weight: bold;
+      font-size: 3.5rem;
     }
 
 /* contact us */
@@ -128,7 +132,7 @@ p{
   font-style: italic;
 }
 .listmeet{
-  color: #a8b9e5;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
 }
@@ -140,4 +144,22 @@ p{
 .con1{
   padding-left: 0;
   padding-right: 0;
+}
+.patrick1{
+  padding-top: 20px;
+}
+
+
+@media (max-width:1028px){
+  body {
+  background-image:linear-gradient(#1f1a71, #28367e);
+  }
+  .row-title{
+  background-image:linear-gradient(#231e79, #232b7d)
+}
+.par1{
+  font-size: 1.5rem;
+}
+
+
 }
